@@ -1,0 +1,48 @@
+RewriteEngine on
+
+RewriteRule ^([^/.]+)/?$          link.php?id=$1 [L]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RewriteRule ^about                about.php [L]
+RewriteRule ^api-about            api-about.php [L]
+RewriteRule ^contact              contact.php [L]
+RewriteRule ^tos                  tos.php [L]
